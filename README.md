@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WorldTrip 💛✈
 
-## Getting Started
+&nbsp;
 
-First, run the development server:
+![mock1](https://user-images.githubusercontent.com/71772559/113537236-741f7980-95ae-11eb-8e58-dc35845007c5.png)
 
-```bash
-npm run dev
-# or
-yarn dev
+## 📚 Informações sobre o projeto
+
+* Esse projeto foi desenvolvido durante um dos desafios dos capitulos do Ignite da Rocketseat! A ideia era desenvolver um site do zero seguindo o layout do Figma usando apenas o sistema do Chakra UI. Nesse projeto eu acrescentei alguns detalhes por conta própria, já que curti bastante trabalhar nele!
+
+&nbsp;
+
+## 💻 O que tem no projeto?
+
+* Design completo usando completamente o Charka UI, também com sua versão responsiva.
+* Slides usando Swiper.
+
+&nbsp;
+
+## 👨🏻‍💻 Funcionalidades desenvolvidas por mim
+* Integração com o Prismic CMS, onde todas as informações usadas no site são armazenadas/criadas.
+* Adicionado o uso do sistema estatico do Next.js, onde todas as rotas são pré-carregadas e salvas em cache.
+
+&nbsp;
+
+![mock2](https://user-images.githubusercontent.com/71772559/113537446-20f9f680-95af-11eb-9894-a23ef0127e59.png)
+
+&nbsp;
+
+## 🛠️ Tecnologias/Ferramentas ultilizadas
+
+* [React](https://pt-br.reactjs.org/E)
+* [Next.js](https://nextjs.org/)
+* [Chakra UI](https://chakra-ui.com/)
+* [Swiper](https://swiperjs.com/react)
+
+&nbsp;
+
+<img src="https://user-images.githubusercontent.com/71772559/113538101-be095f00-95b0-11eb-8e5a-2eda2c5bd456.gif" width="100%" />
+
+&nbsp;
+
+## ⚙️ Instalação
+```
+# Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/snax10/projeto-worldtrip.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+# Acesse a pasta da aplicação
+$ cd worldtrip
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Crie um arquivo .env.local e coloque as variaveis
+# de ambiente baseado no arquivo .env.example que
+# se encontra na pasta worldtrip
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Instale as dependências
+$ yarn
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Inicie a aplicação
+$ yarn start
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+&nbsp;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="center">Carlos Santos</p>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
